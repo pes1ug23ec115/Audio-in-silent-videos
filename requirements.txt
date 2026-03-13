@@ -1,0 +1,21 @@
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+
+# Audio and video processing
+opencv-python>=4.8
+librosa>=0.10
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16
+
+# Image and notebook utilities
+Pillow>=10.0
+ipython>=8.0
+openpyxl>=3.1
+
+# Optional for dataset download steps (if used in notebook cells)
+yt-dlp>=2024.0.0
+
+# Note: `google.colab` is available in Colab runtimes and is not required for local runs.
